@@ -4,24 +4,6 @@ A small system that checks a payment against the customer's own history, gives i
 
 It looks for: unusually high amounts, many payments in a short time, sudden spending changes, unusual locations, and repeated failed payments.
 
-## Live demo
-
-| | Link |
-|---|---|
-| Frontend (dashboard) | `ADD_VERCEL_URL_HERE` |
-| Backend API docs (Swagger) | `ADD_RENDER_URL_HERE/docs` |
-| GitHub | `ADD_GITHUB_URL_HERE` |
-
-> The backend runs on a free plan and goes to sleep when nobody uses it. The first request can take about a minute. Please open the API docs link once and wait, then use the dashboard.
-
-## Screenshots
-
-| | |
-|---|---|
-| ![Dashboard](screenshots/01-dashboard.png) | ![High risk reasons](screenshots/02-high-risk-reasons.png) |
-| ![Check a payment](screenshots/03-check-result.png) | ![Swagger docs](screenshots/04-swagger-docs.png) |
-| ![All tests passing](screenshots/05-pytest-241-passed.png) | ![Manual tests](screenshots/06-manual-tests.png) |
-
 ## Tech stack
 
 | Part | Technology |
